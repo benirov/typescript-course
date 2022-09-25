@@ -1,0 +1,83 @@
+<h3>Que es TypeScript</h3>
+Es un superconjunto tipado de javascript, que compila a javascript.
+Lenguaje de programación tipado: Posee un conjunto de tipos para poder usarlos con las variables, pudiendo personalizarlos o extenderlos.
+
+Lenguaje de alto nivel: Entendible por humanos y posee un alto nivel de abstracción del código máquina.
+
+Genera como resultado código JavaScript: Emite código javascript compatible con browsers y otras herramientas de javascript.
+
+Código abierto.
+
+Desarrollo desde cualquier sistema.
+
+El código puede ejecutarse en cualquier navegador o plataforma que soporte javascript.
+
+<h3>Porque usar TypeScript</h3>
+Programación orientada a objetos
+Potenciar tu código JavaScript
+Mayor productividad
+Poderoso sistema de tipos
+Compila a ES5, ES6 y más
+Proyecto muy activo/Open source
+Actualizaciones periódicas
+Comunidad creciente
+Puede prevenir cerca del 15% de bugs
+Puede usar TypeScript para backend**__**
+
+
+JavaScript es un lenguaje de tipos dinámicos. 
+Aunque esto facilita la declaración de variables, en algunos casos puede provocar resultados inesperados. 
+El sistema de tipos estáticos de TypeScript permite describir la forma de un objeto, proporcionando una mejor documentación y permitiendo que TypeScript valide que el código funciona correctamente. 
+En TypeScript, las declaraciones de espacios de nombres, clases, propiedades, funciones, variables y otras entidades de lenguaje asocian tipos a esas entidades. 
+La forma en que se forma un tipo y se asocia a una entidad de lenguaje depende del tipo de entidad.
+
+
+
+La principal ventaja de Typescript es que permite agregar tipos estáticos al código de JavaScript. 
+Los tipos colocan restricciones estáticas en entidades de programa, como funciones, variables y propiedades, 
+de tal modo que los compiladores y las herramientas de desarrollo puedan ofrecer una mejor comprobación y asistencia durante el desarrollo.
+
+El sistema de tipos estáticos en tiempo de compilación de TypeScript modela estrechamente el sistema de tipos dinámicos en tiempo de ejecución 
+de JavaScript, lo que permite expresar con precisión las relaciones de tipo que se espera que existan cuando se ejecutan los programas y se tienen 
+las suposiciones que el compilador de TypeScript ha validado previamente. 
+El análisis de tipos de TypeScript se produce por completo en tiempo de compilación y no agrega sobrecarga en tiempo de ejecución 
+a la ejecución del programa.
+
+Los tipos estáticos también proporcionan una manera de documentar mejor la intención del código, 
+lo que le permitirá a usted y a otros desarrolladores comprenderlo.
+
+
+La diferencia principal entre any y unknown es que no puede interactuar con una variable de tipo unknown; 
+si lo hace, se genera un error del compilador. any omite las comprobaciones en tiempo de compilación y el objeto se evalúa en tiempo de ejecución.
+ Si el método o la propiedad existen, se comportará según lo esperado.
+
+ Una aserción de tipos indica a TypeScript que ha realizado cualquier comprobación especial que necesite antes de llamar a la instrucción.
+  Indica al compilador "confía en mí, sé lo que estoy haciendo". Una aserción de tipos es como una conversión de tipos en otros lenguajes, 
+  pero no realiza ninguna comprobación especial ni reestructuración de los datos. No tiene ningún impacto en el tiempo de ejecución y lo utiliza 
+  
+  
+  Tipos literales
+Un literal es un subtipo más concreto de un tipo colectivo. Esto significa que "Hello World" es un elemento string, 
+pero un elemento string no es "Hello World" dentro del sistema de tipos.
+Hay tres conjuntos de tipos literales disponibles en TypeScript: string, number y boolean. 
+Mediante el uso de tipos literales, puede especificar un valor exacto que debe tener una cadena, 
+un número o un valor booleano (por ejemplo, "yes", "no" o "maybe").exclusivamente el compilador.
+
+¿Qué es la restricción literal?
+Cuando se declara una variable mediante var o let en TypeScript, se indica al compilador que existe la posibilidad 
+de que esta variable cambie su contenido. Al declarar una variable con let se escribe la variable (por ejemplo, 
+como un elemento string), lo que permite un número infinito de valores posibles.
+
+
+Tipos de colección en TypeScript
+
+Los tipos de objeto son todos los tipos de clase, de interfaz, de matriz y literales (todo lo que no sea un tipo primitivo). 
+Por ahora, veamos los tipos de matriz y de tupla.
+
+
+interfaces: 
+Uno de los principios básicos de TypeScript es que la comprobación de tipos se centra en la forma que tienen los valores. 
+Esto se denomina a veces "duck typing" o "subtipo estructural". En TypeScript, las interfaces cumplen la función de nombrar 
+estos tipos y constituyen una manera eficaz de definir un "contrato de código" dentro del código, así como contratos con el código fuera del proyecto.
+
+¿Qué es una interfaz?
